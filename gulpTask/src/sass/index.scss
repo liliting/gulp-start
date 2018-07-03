@@ -1,0 +1,19 @@
+//--------------------------------------
+//   index.scss   import all scss
+//
+//--------------------------------------
+
+@charset "UTF-8";
+
+@import "helper/reset";
+@import "helper/parameter";
+@import "helper/function";
+@import "helper/animate";
+@import "helper/base";
+
+@import "layout/header";
+@import "components/flexslider";
+@import "pages/index";
+@import "components/vip";
+@import "layout/footer";
+

@@ -1,0 +1,45 @@
+@charset "utf-8";
+//sprite bannericon
+@mixin indexImg{display:inline-block;*display:inline;*zoom:1;background:url('../images/index/indexImg.png') no-repeat; }
+@mixin more-active{height:32px;width:76px;background-position: -71px 0;}
+@mixin more{height:32px;width:76px;background-position: -147px 0;}
+
+i.icon{
+    @include icon;
+    @include indexImg;
+    font-style:normal;  
+}
+.vip{
+    margin-top: 54px !important;
+    .module-title::after{
+        display: none;
+    }
+}
+.index-container{
+    width: 1124px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@import "index/pgc";
+
+.vip{
+    .vip-body{
+        margin-top: 62px !important;
+        margin-bottom: 104px !important;
+    }
+    .vip-header-top{
+        width: 120px;
+        margin:0 auto 20px;
+    }
+    .vip-header-bottom{
+        width: 100%;
+        text-align:center;
+        font-size: 24px;
+        color: #888;
+        font-weight:300;
+        .tt{
+            letter-spacing: -4px;
+        }
+    }
+
+}

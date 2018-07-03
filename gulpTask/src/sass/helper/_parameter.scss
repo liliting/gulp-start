@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+//parameters
+
+//colors
+$color-nav:rgba(0,0,0,0.8) !default;
+$color-primary:#FED20B !default;
+$color-white  :#ffffff !default;
+$color-link   :#434343 !default;
+$color-font   :#434343 !default;
+$color-live1:#A3CA28 !default;
+$color-live2:#BD681B !default;
+$color-live3:#FED208 !default;
+$color-content1:#44B686 !default;
+$color-content2:#E95515 !default;
+
+//spacing
+$spacing-min   :5px !default;
+$spacing-normal:10px !default;
+$spacing-max   :20px !default;
+
+//font-size  0px  12px 13px 14px 15px 16px 17px     18px 20px      26px 30px 32px 52px
+$font-size-smallest:12px !default;
+$font-size-small   :14px !default;
+$font-size-normal  :16px !default;
+$font-size-base    :18px !default;
+$font-size-big     :26px !default;
+$font-size-large   :30px !default;
+$font-size-biggest :32px !default;
+$font-size-largest :60px !default;
+
+//Media  1279px----C1000px    1599px------C1260px
+$width    :1300px;
+$min-width:1366px;
+
+//animate
+$anima-in :.4s !default;
+$anima-out:.5s !default;
+
+
+$lte7:true !default;
+$lte8:true !default;

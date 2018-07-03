@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+.page{
+    margin:40px auto;
+    text-align: center;
+    .page-num{
+        display: inline-block;
+        *display:inline;
+        *zoom:1;
+        
+        a{
+            padding:0 20px;
+            height:53px;
+            line-height:53px;
+            display: inline-block;
+            *display:inline;
+            *zoom:1;
+            font-size:30px;
+            font-size: 18px;
+            font-weight:100;  
+            border-radius: 3px; 
+        }
+        a.page-first{
+            border: 1px solid $color-primary;
+        }
+        a.active{
+            background-color: $color-primary;
+            color: $color-white;
+        }
+        a:hover{
+            background-color: $color-primary;
+            color: $color-white;
+        }
+//      a.page-last{
+//          background-color: #eee;
+//          border: none;
+//          &:hover{
+//              background-color: #eee;
+//              color: #434343;
+//          }
+//      }
+    }
+    .page-num+.page-num{
+        margin-left:15px;
+    }
+}

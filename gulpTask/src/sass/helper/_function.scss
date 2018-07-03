@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+%deco-none{
+  text-decoration:none;
+}
+
+%ellipsis{
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+@mixin border($size:1,$color:#fff,$radius:0){
+  border:$size solid $color;
+  border-radius:$radius;
+}
+
+@mixin keyframes($animateName){
+  @-webkit-keyframes  #{$animateName} {
+    @content;
+  }
+  @-moz-keyframes #{$animateName} {
+    @content;
+  }
+  @-o-keyframes #{$animateName}{
+   @content;
+  }
+  @keyframes #{$animateName} {
+    @content;
+  }
+
+}
