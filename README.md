@@ -38,7 +38,13 @@
 2. 将项目中的image资源放在gulpTask目录下
 3. 建项目相应的sass文件，该项目下的sass结构可以作为参考，自己有更好的也可以使用
 4. 安装nodejs，下载地址 [http://nodejs.cn/download/](http://nodejs.cn/download/)
-5. 进入目录 gulpTask下，执行下列命令，安装上述包
+5. 安装成功之后 安装gulp 
+```
+npm install gulp -g
+```
+> -g表示全局安装
+
+6. 进入目录 gulpTask下，执行下列命令，安装上述包
 ```
 npm install
 ```
@@ -46,7 +52,7 @@ npm install
 ```
 cnpm install
 ```
-6. 输入下列命令，执行gulp任务
+7. 输入下列命令，执行gulp任务
 
 ```
 gulp 
@@ -55,7 +61,7 @@ gulp
 ```
 gulp default
 ```
-5. 也可以执行下列命令，去监听文件自动编译。（一般调试sass的时候用的比较多）用这个很方便，只要文件保存，他就会编译。
+8. 也可以执行下列命令，去监听文件自动编译。（一般调试sass的时候用的比较多）用这个很方便，只要文件保存，他就会编译。
 > 注意：保存文件时。要预防语法错误。不然watch编译会终止
 
 ```
