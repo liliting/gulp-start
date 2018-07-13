@@ -1,16 +1,15 @@
 //-------------------------------------
-//  4kgarden website
 
-/*  gulp-imagemin imagemin-pngquant  Ñ¹ËõÍ¼Æ¬
- *  gulp-htmlmin                    Ñ¹Ëõhtml
- *  del                             É¾³ýÎÄ¼þ
- *  gulp-sass                       ±àÒësass    none
- *  gulp-minify-css                 Ñ¹Ëõcss
- *  gulp-browser-sync               ------ä¯ÀÀÆ÷
+/*  gulp-imagemin imagemin-pngquant  Ñ¹ï¿½ï¿½Í¼Æ¬
+ *  gulp-htmlmin                    Ñ¹ï¿½ï¿½html
+ *  del                             É¾ï¿½ï¿½ï¿½Ä¼ï¿½
+ *  gulp-sass                       ï¿½ï¿½ï¿½ï¿½sass    none
+ *  gulp-minify-css                 Ñ¹ï¿½ï¿½css
+ *  gulp-browser-sync               ------ï¿½ï¿½ï¿½ï¿½ï¿½
  *  gulp-uglify                     JS-min
- *  gulp-concat                     ºÏ²¢ÎÄ¼þ
- *  gulp-rev                        ÎªÎÄ¼þ¼Óºó×º
- *  gulp-rev-collector              Â·¾¶Ìæ»»
+ *  gulp-concat                     ï¿½Ï²ï¿½ï¿½Ä¼ï¿½
+ *  gulp-rev                        Îªï¿½Ä¼ï¿½ï¿½Óºï¿½×º
+ *  gulp-rev-collector              Â·ï¿½ï¿½ï¿½æ»»
  *  gulp-watch
  *  gulp-spritesmith
 */
